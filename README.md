@@ -39,7 +39,7 @@ Crie um arquivo `npm.bat` (exemplo) com a linha `ligar-cobranca --de=<NUMERO> --
 ```
 :loop
 call npm.bat
- sleep 60
+ timeout /t 60
  goto loop
 pause
 ```
